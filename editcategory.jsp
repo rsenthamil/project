@@ -6,37 +6,25 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Edit Category</title>
 </head>
 <body>
-
  <h1>Edit Product</h1>  
            <form:form method="POST" action="update">    
             <table >    
             <tr>  
             <td></td>    
-             <td><form:input  path="pid" hidden="true"/></td>  
+             <td><form:input  path="id" hidden="true"/></td>  
              </tr>   
              <tr>    
               <td>Product Name : </td>   
-              <td><form:input path="pName"  /></td>  
+              <td><form:input path="name"  /></td>  
              </tr>    
              <tr>    
               <td>Product Description :</td>    
-              <td><form:input path="pDes" /></td>  
+              <td><form:input path="Desc" /></td>  
              </tr>   
-             <tr>   
-             <tr>    
-              <td>Product Price :</td>    
-              <td><form:input path="pPrize" /></td>  
-             </tr> 
-              <tr>    
-              <td>Percentage Discount:</td>    
-              <td><form:input path="pPer" /></td>  
-             </tr>   
-             
-             <tr>    
-              <td> </td>    
+              <tr>
               <td><form:button id="singlebutton" name="singlebutton" class="btn btn-primary" value="update" >Update</form:button> </td>  
              </tr>    
             </table>    
@@ -44,3 +32,7 @@
 
 </body>
 </html>
+
+    
+           
+
